@@ -1,0 +1,44 @@
+body {
+  margin: 0 auto;
+  background: rgb(118, 153, 153);
+}
+h1 {
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
+}
+h3 {
+  color: black;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+#logueo,
+#guardar {
+  background-color: black;
+  color: white;
+  border: 1px solid yellowgreen;
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+  display: inline-block;
+}
+
+#logueo:hover,
+#guardar:hover {
+  background-color: #97c8ff;
+  color: black;
+}
+#contenedor {
+  width: auto;
+  text-align: center;
+}
+#foto {
+  width: 40%;
+  height: 300px;
+  margin: 0 auto;
+  position: relative;
+  background-image: url(/img/aqua.park.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
